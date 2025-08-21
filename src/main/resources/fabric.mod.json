@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "tectonix",
+	"version": "${version}",
+	"name": "Tectonix",
+	"description": "A technological mod adding new ores and advanced machinery.",
+	"authors": [
+		"AlexPyslar"
+	],
+	"contact": {
+		"homepage": "https://velesoft.ru/",
+		"sources": "https://github.com/alex-pyslar/Tectonix"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tectonix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.velesoft.Tectonix"
+		],
+		"client": [
+			"ru.velesoft.TectonixClient"
+		]
+	},
+	"mixins": [
+		"tectonix.mixins.json",
+		{
+			"config": "tectonix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

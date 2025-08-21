@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "RGR",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "tectonix:tectonic_shard"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "tectonix:tectonic_generator",
+    "count": 1
+  }
+}

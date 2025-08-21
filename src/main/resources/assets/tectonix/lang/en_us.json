@@ -1,0 +1,9 @@
+{
+  "item.tectonix.tectonic_shard": "Tectonic Shard",
+  "item.tectonix.xenonite_crystal": "Xenonite Crystal",
+  "block.tectonix.tectonic_ore": "Tectonic Ore",
+  "block.tectonix.xenonite_ore": "Xenonite Ore",
+  "block.tectonix.tectonic_generator": "Tectonic Generator",
+  "item.tectonix.tectonic_drill": "Tectonic Drill",
+  "item.tectonix.xenonite_cutter": "Xenonite Cutter"
+}

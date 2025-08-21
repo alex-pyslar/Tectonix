@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tectonix:item/xenonite_cutter"
+  }
+}
